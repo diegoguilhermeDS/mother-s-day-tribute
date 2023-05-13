@@ -47,7 +47,7 @@ export default function Message() {
             coração um feliz dia das mães. ass: Seu amor!
           </h2>
           <p
-            className="font-normal text-xl text-[#EA7A87] relative max-w-max 
+            className="font-normal text-xl text-red-500 relative max-w-max 
             before:content-['']
             before:absolute
             before:top-0
