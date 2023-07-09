@@ -11,9 +11,9 @@ export default function Message() {
       <Image
           src={imgBgDetail}
           alt="Imagem de backgroud detail"
-          width={320}
-          height={320}
-          className="absolute bottom-0 right-0"
+          width={280}
+          height={280}
+          className="absolute bottom-0 right-0 hidden lg:flex"
         />
       <header className="flex justify-end p-2">
         <Link
@@ -31,7 +31,7 @@ export default function Message() {
           />
         </Link>
       </header>
-      <main className="flex gap-10 items-center justify-center p-5">
+      <main className="flex flex-col lg:flex-row gap-10 items-center justify-center p-5 overflow-hidden">
         <Image
           src={imgLove}
           alt="Imagem do amor da minha vida"
@@ -39,8 +39,8 @@ export default function Message() {
           height={500}
           className="shadow-2xl shadow-[#EA7A87] bg-red-300 rounded-full"
         />
-        <div className="flex flex-col gap-6">
-          <h2 className="font-semibold text-3xl text-[#C31F3A] w-[610px] text-justify">
+        <div className="flex flex-col gap-6 px-6">
+          <h2 className="font-semibold text-xl lg:text-3xl text-[#C31F3A] lg:w-[610px] text-justify">
             Obvio que não sou seu filho, mas eu não poderia deixar de
             parabenizar você neste dia. Uma das coisas mais linda que vi em você
             foi a mãe incrível que você é. por isso desejo a você de todo meu
